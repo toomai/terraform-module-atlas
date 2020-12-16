@@ -1,6 +1,6 @@
 terraform {
   required_providers {
-    mongodb = {
+    mongodbatlas = {
       source  = "mongodb/mongodbatlas"
     }
   }
