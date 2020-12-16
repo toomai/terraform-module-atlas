@@ -1,1 +1,1 @@
-provider "mongodbatlas" {}
+provider "mongodb/mongodbatlas" {}
