@@ -5,3 +5,11 @@ resource "mongodbatlas_cluster" "my_awesome_cluster" {
     provider_instance_size_name = "M0"
     mongo_db_major_version="4.2"
 }
+
+terraform {
+  required_providers {
+    heroku = {
+      source = "mongodb/mongodbatlas"
+    }
+  }
+}
