@@ -6,3 +6,6 @@ terraform {
   }
 }
 
+provider "mongodb" {
+    
+}
