@@ -6,6 +6,6 @@ terraform {
   }
 }
 
-provider "mongodb" {
-    
+provider "mongodbatlas" {
+
 }
